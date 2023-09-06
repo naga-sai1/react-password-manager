@@ -1,0 +1,243 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.app-logo {
+  height: 50px;
+  width: 160px;
+  margin-bottom: 28px;
+}
+
+.user-container {
+  background-color: #5763a5;
+  width: 100%;
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .user-container {
+    flex-direction: row;
+  }
+}
+
+.sm-manager-icon {
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .sm-manager-icon {
+    display: none;
+  }
+}
+
+.lg-manager-icon {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .lg-manager-icon {
+    display: flex;
+    width: 40%;
+    order: 2;
+    margin-left: 14px;
+  }
+}
+
+.user-details-container {
+  background-color: #454f84;
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .user-details-container {
+    order: 1;
+    width: 56%;
+  }
+}
+
+.heading {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 28px;
+  }
+}
+
+.input-item-container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 6px;
+  height: 68px;
+  margin-bottom: 25px;
+}
+
+.input-item-img {
+  width: 30px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.input-item {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: large;
+  height: 68px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: none;
+  border-left: 1px solid #5763a5;
+}
+
+.add-btn {
+  color: #f8fafc;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: large;
+  font-weight: 500;
+  border-radius: 6px;
+  border: none;
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+  width: 120px;
+  align-self: flex-end;
+  outline: none;
+  cursor: pointer;
+}
+
+.your-password-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #5763a5;
+  margin-top: 16px;
+  border-radius: 8px;
+  padding: 20px;
+  min-height: 50vh;
+}
+
+.search-and-count-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.your-password-count-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.password-count {
+  color: #f8fafc;
+  border: 1px solid #f8fafc;
+  border-radius: 50px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: 2px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.password-search-container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  height: 50px;
+  width: 260px;
+  border: none;
+  border-radius: 2px;
+  margin-left: 8px;
+}
+
+.password-search-icon {
+  width: 48px;
+  padding: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.password-search-input {
+  height: 48px;
+  padding: 6px;
+  width: 100%;
+  border: none;
+  border-left: 1px solid #c3caea;
+  border-radius: 2px;
+  outline: none;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.line {
+  width: 100%;
+  font-size: 0.5px;
+  margin-top: 10px;
+}
+
+.check-box-container {
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  margin-top: 22px;
+}
+
+.input-element {
+  margin-right: 8px;
+}
+
+.label {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.password-items-container {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.no-password-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-self: center;
+}
+
+.no-password-img {
+  width: 40%;
+  align-self: center;
+}
+
+.no-password-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  text-align: center;    
+}
